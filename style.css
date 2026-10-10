@@ -1,0 +1,551 @@
+#navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    z-index: 10000;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    padding-bottom: 60px;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 45px;
+}
+
+.navbar-list,
+a {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+.navbar-son-ogeler {
+    display: flex;
+    gap: 40px;
+    font-weight: 10;
+}
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    position: relative;
+    z-index: -3;
+}
+
+#store-div {
+    background-color: white;
+    height: 400px;
+    width: 100vw;
+    transition: 0.5s ease;
+    opacity: 100;
+    display: flex;
+    position: relative;
+    z-index: 100;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#mac-div {
+    background-color: white;
+    height: 400px;
+    width: 100vw;
+    margin-top: -500px;
+    transition: 0.5s ease;
+    opacity: 100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    z-index: 100;
+}
+
+#İpad-div {
+    position: relative;
+    z-index: 100;
+    background-color: white;
+    margin-top: -300px;
+    height: 400px;
+    width: 100vw;
+    transition: 0.5s ease;
+    opacity: 100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#İphone-div {
+    position: relative;
+    z-index: 100;
+    background-color: white;
+    margin-top: -800px;
+    height: 400px;
+    width: 100vw;
+    transition: 0.5s ease;
+    opacity: 100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.gizli {
+    visibility: visible;
+    transform: translateY(-500px);
+}
+
+.gorunur-iphone {
+    display: block;
+    z-index: 1000;
+    transition: 05s;
+    visibility: visible;
+    transform: translateY(400px);
+}
+
+.gorunur {
+    display: block;
+    z-index: 1000;
+    transition: 05s;
+    visibility: visible;
+    transform: translateY(-00px);
+}
+
+.gorunur-mac {
+    display: block;
+    transition: 05s;
+    margin-bottom: 100px;
+    visibility: visible;
+    transform: translateY(100px);
+    position: relative;
+}
+
+
+#body-main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+
+.bulanık {
+    filter: blur(15px);
+}
+
+#Watch-div {
+    position: relative;
+    z-index: 100;
+    background-color: white;
+    margin-top: -100px;
+    height: 400px;
+    width: 100vw;
+    transition: 0.5s ease;
+    opacity: 100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Airpods-div {
+    position: relative;
+    z-index: 100;
+    background-color: white;
+    margin-top: -700px;
+    height: 400px;
+    width: 100vw;
+    transition: 0.5s ease;
+    opacity: 100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Tv-div {
+    position: relative;
+    z-index: 100;
+    background-color: white;
+    margin-top: -800px;
+    height: 400px;
+    width: 100vw;
+    transition: 0.5s ease;
+    opacity: 100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Eğlence-div {
+    position: relative;
+    z-index: 100;
+    background-color: white;
+    margin-top: -300px;
+    height: 400px;
+    width: 100vw;
+    transition: 0.5s ease;
+    opacity: 100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Aksesuarlar-div {
+    position: relative;
+    z-index: 100;
+    background-color: white;
+    margin-top: -700px;
+    height: 400px;
+    width: 100vw;
+    transition: 0.5s ease;
+    opacity: 100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Destek-div {
+    position: relative;
+    z-index: 100;
+    background-color: white;
+    margin-top: -400px;
+    height: 400px;
+    width: 100vw;
+    transition: 0.5s ease;
+    opacity: 100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.gorunur-Watch {
+    display: block;
+    z-index: 1000;
+    transition: 05s;
+    visibility: visible;
+    transform: translateY(100px);
+}
+
+.gorunur-Eğlence {
+    display: block;
+    z-index: 1000;
+    transition: 05s;
+    visibility: visible;
+    transform: translateY(700px);
+}
+
+.gorunur-Tv {
+    display: block;
+    z-index: 1000;
+    transition: 05s;
+    visibility: visible;
+    transform: translateY(800px);
+}
+
+.one-cıkma {
+    position: relative;
+    z-index: -1;
+}
+
+.gorunur-Destek {
+    display: block;
+    z-index: 1000;
+    transition: 05s;
+    visibility: visible;
+    transform: translateY(1000px);
+}
+
+.gorunur-aksesuar {
+    display: block;
+    z-index: 1000;
+    transition: 05s;
+    visibility: visible;
+    transform: translateY(1000px);
+}
+
+.mavis {
+    animation-name: mavisS;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-fill-mode: forwards ;
+}
+
+
+@keyframes mavisS {
+    0% {}
+
+    50% {
+        background-color: rgb(0, 140, 255);
+        color: white;
+    }
+
+    100% {
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F3F4F4;
+        height: 50px;
+        color: black;
+    }
+}
+
+.kartsistem1{
+    display: flex;
+    width: 80vw;
+    max-width: 1200px;
+    overflow-x: hidden;
+    flex-direction: row;
+    align-items: center;
+}
+
+#geri-1{
+   border-right: 1px solid gainsboro;
+   display: flex;
+   align-items: center;
+   padding-right: 15px;
+}
+
+#ileri-1{
+   border-left: 1px solid gainsboro;
+   display: flex;
+   align-items: center;
+   padding-left: 15px;
+}
+
+.navigation {
+    position: relative;
+
+    background-color: #e8e8ed;
+
+    width: 600px;
+    height: 60px;
+    margin-left: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0px;
+
+    border-radius: 40px;
+}
+
+.navigation a {
+    position: relative;
+    z-index: 2;
+
+    color: black;
+    text-decoration: none;
+
+    padding: 5px 15px;
+   font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, sans-serif;
+}
+
+
+.active-box {
+    position: absolute;
+
+    left: 10px;
+
+    padding-top: 0px;
+    
+        padding-bottom: 3px;
+    height: 30px;
+    z-index: 0;
+    background-color: black;
+    border-radius: 40px;
+    height: 44px;
+    transition: 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white{
+    color: white;
+    display: block;
+    position: relative;
+    z-index: 999999;
+}
+
+#ileri-2{
+    background-color:   rgb(232, 232, 237);
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.56);
+      font-weight: bolder;
+}
+
+#geri-2{
+    background-color: rgb(232, 232, 237);
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+      color: rgba(0, 0, 0, 0.56);
+      font-weight: bolder;
+}
+
+.block{
+    display: block;
+}
+
+.none{
+    display: none;
+}
+
+
+p {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+}
+
+span {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+}
+
+h1,h2,h3,h4,h5,h6 {
+
+color: rgba(0, 0, 0, 0.8);
+font-weight: 600;
+}
+
+.IconControl_paddleNavIcons__ZzEXW {
+    width: 40px;
+    height: 40px;
+    display: block;
+    flex-shrink: 0;
+    background-color: #eaeaeb;
+    border-radius: 50%;
+    fill: rgba(0, 0, 0, 0.56);
+    transition: 0.3s;
+}
+
+.IconControl_paddleNavIcons__ZzEXW:hover {
+    width: 40px;
+    height: 40px;
+    display: block;
+    flex-shrink: 0;
+          fill: #161617;
+    background-color: #eeeeee;
+        border-radius: 50%;
+        transition: 0.3s;
+}
+
+.kart-tasarım{
+    display: flex;
+    flex-direction: column;
+   background-color: white;
+   width: 344px;
+   border-radius: 40px;
+   height: 540px;
+   border-bottom-right-radius: 40px;
+   border-bottom-left-radius: 40px;
+   align-items: left;
+   padding-left: 30px;
+   box-sizing: border-box;
+   
+}
+
+.kart-tasarım img{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 70px;
+
+}
+
+.button-hover-onemli:hover{
+    background-color: #f6f6f7;
+    transition: 0.3s;
+}
+
+#ileri-3{
+    background-color:   rgb(232, 232, 237);
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.56);
+      font-weight: bolder;
+}
+
+#geri-3{
+    background-color: rgb(232, 232, 237);
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+      color: rgba(0, 0, 0, 0.56);
+      font-weight: bolder;
+}

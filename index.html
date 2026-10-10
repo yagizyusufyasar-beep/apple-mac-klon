@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+
+<body id="body">
+    <header>
+        <nav id="navbar">
+            <div style="font-size: 18px;"><i style="cursor: pointer;" class="fa-brands fa-apple"></i></div>
+            <div>
+                <ul class="navbar-list">
+                    <li><a id="Store" href="#">Store</a></li>
+                    <li><a id="Mac" href="#">Mac</a></li>
+                    <li><a id="İpad" href="#">iPad</a></li>
+                    <li><a id="İphone" href="#">iPhone</a></li>
+                    <li><a id="Watch" href="#">Watch</a></li>
+                    <li><a id="Airpods" href="#">AirPods</a></li>
+                    <li><a id="Tv" href="#">TV & Home</a></li>
+                    <li><a id="Eğlence" href="#">Entertainment</a></li>
+                    <li><a id="Aksesuar" href="#">Accessories</a></li>
+                    <li><a id="Destek" style="margin-right: 40px;" href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="navbar-son-ogeler"><svg style="cursor: pointer;" xmlns="http://www.w3.org/2000/svg" width="15px"
+                    height="44px" viewBox="0 0 15 44">
+                    <path
+                        d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z">
+                    </path>
+                </svg>
+                <svg style="cursor: pointer;" height="44" viewBox="0 0 14 44" width="14"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z">
+                    </path>
+                </svg>
+            </div>
+
+
+
+        </nav>
+
+        <div id="store-div">
+            <div style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -20px;">Alışveriş
+                    Yapın</div>
+                <div>
+                    <ul style="font-size: 25px;list-style-type: none;">
+                        <li style="cursor: pointer;">Yeni Ürünlere Göz Atın</li>
+                        <li style="cursor: pointer;">Mac</li>
+                        <li style="cursor: pointer;">iPad</li>
+                        <li style="cursor: pointer;">iPhone</li>
+                        <li style="cursor: pointer;">Apple Watch</li>
+                        <li style="cursor: pointer;">AirPods</li>
+                        <li style="cursor: pointer;">Aksesuarlar</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -160px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -10px;">Hızlı
+                    Bağlantılar</div>
+                <div>
+                    <ul style="font-size: 15px;font-weight: 400;list-style-type: none;">
+                        <li style="cursor: pointer;">Bir Mağaza Bulun</li>
+                        <li style="cursor: pointer;">Sipariş Durumu</li>
+                        <li style="cursor: pointer;">Ödeme Kolaylıkları</li>
+                        <li style="cursor: pointer;">Üniversite Öğrencilerine Özel Teklif</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -200px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -10px;">Özel
+                    Mağazalardan Alışveriş Yapın</div>
+                <div>
+                    <ul style="font-size: 15px;font-weight: 400;list-style-type: none;">
+                        <li style="cursor: pointer;">Eğitim</li>
+                        <li style="cursor: pointer;">İş Dünyası</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="mac-div">
+            <div style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -20px;">Mac i
+                    keşfedin</div>
+                <div>
+                    <ul style="font-size: 25px;list-style-type: none;">
+                        <li style="cursor: pointer;">Tüm Mac Modellerini Keşfedin</li>
+                        <li style="cursor: pointer;">MacBook Neo</li>
+                        <li style="cursor: pointer;">MacBook Air</li>
+                        <li style="cursor: pointer;">Maacbook Pro</li>
+                        <li style="cursor: pointer;">İMac</li>
+                        <li style="cursor: pointer;">Mac mini</li>
+                        <li style="cursor: pointer;">Mac Studio</li>
+                        <li style="cursor: pointer;">Ekranlar</li>
+                        <li style="font-size: 13px;color: black;margin-top: 20px;">Mac Modellerini Karşılaştırın</li>
+                        <li style="font-size: 13px;color: black;margin-top: 5px;">PC den Mac e geçiş yapın</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -250px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -10px;">Hızlı
+                    Mac Satın Alın</div>
+                <div>
+                    <ul style="font-size: 15px;font-weight: 400;list-style-type: none;">
+                        <li style="cursor: pointer;">Mac Satın Alın</li>
+                        <li style="cursor: pointer;">Mac Aksesuarları</li>
+                        <li style="cursor: pointer;">Ödeme Kolaylıkları</li>
+                        <li style="cursor: pointer;">Üniversite öğrencilerine özel Teklif</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -140px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -10px;">Özel
+                    Daha Fazla Mac</div>
+                <div>
+                    <ul style="font-size: 15px;font-weight: 400;list-style-type: none;">
+                        <li style="cursor: pointer;">Mac Desteği</li>
+                        <li style="cursor: pointer;">macOS 27 ye ilk bakış</li>
+                        <li style="cursor: pointer;">Apple intelligence</li>
+                        <li style="cursor: pointer;">Apple Uygulamaları</li>
+                        <li style="cursor: pointer;">Apple Creator Studio</li>
+                        <li style="cursor: pointer;">İphone ile Daha İyi</li>
+                        <li style="cursor: pointer;">İCloud+</li>
+                        <li style="cursor: pointer;">İş Dünyasında Mac</li>
+                        <li style="cursor: pointer;">Eğitim</li>
+                        <li style="cursor: pointer;">Apple at Work</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="İpad-div">
+            <div style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -20px;">ipad'i
+                    Keşfedin
+                </div>
+                <div>
+                    <ul style="font-size: 25px;list-style-type: none;">
+                        <li style="cursor: pointer;">Tüm ipad Modellerini Keşfedin</li>
+                        <li style="cursor: pointer;">İpad Pro</li>
+                        <li style="cursor: pointer;">İpad Air</li>
+                        <li style="cursor: pointer;">İpad</li>
+                        <li style="cursor: pointer;">Ap İpad Mini</li>
+                        <li style="cursor: pointer;">Apple Klavyeler</li>
+                        <li style="cursor: pointer;">Klavyeler</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -160px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -10px;">Hızlı
+                    İpad Satın Alın</div>
+                <div>
+                    <ul style="font-size: 15px;font-weight: 400;list-style-type: none;">
+                        <li style="cursor: pointer;">İpad Satın Alın</li>
+                        <li style="cursor: pointer;">İpad Aksesuarları</li>
+                        <li style="cursor: pointer;">Ödeme kolaylıkları</li>
+                        <li style="cursor: pointer;">Üniversite Öğrencilerine Özel Teklif</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -50px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -10px;">
+                    Daha Fazla İpad</div>
+                <div>
+                    <ul style="font-size: 15px;font-weight: 400;list-style-type: none;">
+                        <li style="cursor: pointer;">İpad Desteği</li>
+                        <li style="cursor: pointer;">İpadOS 27 ye ilk bakış</li>
+                        <li style="cursor: pointer;">Apple intelligence</li>
+                        <li style="cursor: pointer;">Apple Uygulamaları</li>
+                        <li style="cursor: pointer;">Apple Creator Studio</li>
+                        <li style="cursor: pointer;">İCloud+</li>
+                        <li style="cursor: pointer;">İş Dünyasında Mac</li>
+                        <li style="cursor: pointer;">Eğitim</li>
+                        <li style="cursor: pointer;">Apple at Work</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="İphone-div">
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: 45px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -20px;">iphone'i
+                    Keşfedin</div>
+                <div>
+                    <ul style="font-size: 25px;list-style-type: none;">
+                        <li style="cursor: pointer;">Tüm İphone Modellerini Keşfedin</li>
+                        <li style="cursor: pointer;">iphone Duo</li>
+                        <li style="cursor: pointer;">iphone 18 Pro</li>
+                        <li style="cursor: pointer;">İphone Air</li>
+                        <li style="cursor: pointer;">İphone 17</li>
+                        <li style="cursor: pointer;">İphone 17e</li>
+                        <li style="cursor: pointer;">İphone 16</li>
+                        <li style="font-size: 13px;color: black;margin-top: 20px;">İphone Modellerini Karşılaştırın</li>
+                        <li style="font-size: 13px;color: black;margin-top: 5px;">Android den iphone e geçiş </li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -225px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -10px;">Hızlı
+                    Bağlantılar</div>
+                <div>
+                    <ul style="font-size: 15px;font-weight: 400;list-style-type: none;">
+                        <li style="cursor: pointer;">İphone Satın Alın</li>
+                        <li style="cursor: pointer;">İphone Aksesuarları</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -90px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -10px;">Özel
+                    Mağazalardan Alışveriş Yapın</div>
+                <div>
+                    <ul style="font-size: 15px;font-weight: 400;list-style-type: none;">
+                        <li style="cursor: pointer;">İphone Desteği</li>
+                        <li style="cursor: pointer;">İOS 27 ye ilk bakış</li>
+                        <li style="cursor: pointer;">Apple intelligence</li>
+                        <li style="cursor: pointer;">Apple Uygulamaları</li>
+                        <li style="cursor: pointer;">İphonede Gizlilik</li>
+                        <li style="cursor: pointer;">İCloud+</li>
+                        <li style="cursor: pointer;">Mac ile Dağa iyi</li>
+                        <li style="cursor: pointer;">Siri</li>
+                        <li style="cursor: pointer;">Apple at Work</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="Watch-div">
+            <div style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -20px;">Watch'u
+                    Keşfedin</div>
+                <div>
+                    <ul style="font-size: 25px;list-style-type: none;">
+                        <li style="cursor: pointer;">Tüm Apple Watch Modellerini Keşfedin</li>
+                        <li style="cursor: pointer;">Apple Watch Series 12</li>
+                        <li style="cursor: pointer;">Apple Watch Ultra 4</li>
+                        <li style="cursor: pointer;">Apple Watch SE 3</li>
+                        <li style="cursor: pointer;">Apple Watch Nike</li>
+                        <li style="font-size: 13px;color: black;margin-top: 20px;">Watch Modellerini Karşılaştırın</li>
+                        <li style="font-size: 13px;color: black;margin-top: 5px;">Neden Apple Watch </li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -155px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -10px;">Watch
+                    Satın Alın
+                </div>
+                <div>
+                    <ul style="font-size: 15px;font-weight: 400;list-style-type: none;">
+                        <li style="cursor: pointer;">Apple Watch Satın Alın</li>
+                        <li style="cursor: pointer;">Apple Watch Kayışları</li>
+                        <li style="cursor: pointer;">Apple Watch Aksesuarları</li>
+                        <li style="cursor: pointer;">Ödeme Kolaylıkları</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -170px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -10px;">
+                    Daha fazla Watch</div>
+                <div>
+                    <ul style="font-size: 15px;font-weight: 400;list-style-type: none;">
+                        <li style="cursor: pointer;">Apple Watch Desteği</li>
+                        <li style="cursor: pointer;">WatchOS 27</li>
+                        <li style="cursor: pointer;">Apple Uygulamaları</li>
+                </div>
+            </div>
+        </div>
+        <div id="Airpods-div">
+            <div style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -20px;">Airpods'u
+                    keşfedin
+                    keşfedin</div>
+                <div>
+                    <ul style="font-size: 25px;list-style-type: none;">
+                        <li style="cursor: pointer;">Tüm Airpods Modellerini Keşfedin</li>
+                        <li style="cursor: pointer;">Airpods 5</li>
+                        <li style="cursor: pointer;">Airpods Pro 5</li>
+                        <li style="cursor: pointer;">Airpods Max 2</li>
+                        <li style="font-size: 13px;color: black;margin-top: 20px;">Airpods Modellerini Karşılaştırın
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -110px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -10px;">Hızlı
+                    Airpods Satın Alın</div>
+                <div>
+                    <ul style="font-size: 15px;font-weight: 400;list-style-type: none;">
+                        <li style="cursor: pointer;">Airpods 5 Satın Alın</li>
+                        <li style="cursor: pointer;">Airpods Aksesuarları</li>
+                        <li style="cursor: pointer;">Airpods pro 3 Satın Alın</li>
+                        <li style="cursor: pointer;">Airpods max 2 Satın Alın</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -140px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -10px;">Özel
+                    Daha Fazla Airpods</div>
+                <div>
+                    <ul style="font-size: 15px;font-weight: 400;list-style-type: none;">
+                        <li style="cursor: pointer;">Airpods Desteği</li>
+                        <li style="cursor: pointer;">Apple Music</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="Tv-div">
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -60px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -20px;">Tv ve ev
+                    ürünlerini keşfedin
+                </div>
+                <div>
+                    <ul style="font-size: 25px;list-style-type: none;">
+                        <li style="cursor: pointer;">Tüm Tv ve ev Ürünlerini Keşfedin</li>
+                        <li style="cursor: pointer;">Apple TV 4K</li>
+                        <li style="cursor: pointer;">HomePod</li>
+                        <li style="cursor: pointer;">HomePod mini</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -110px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -10px;">Tv ve Ev
+                    Ürünleri Satın Alın</div>
+                <div>
+                    <ul style="font-size: 15px;font-weight: 400;list-style-type: none;">
+                        <li style="cursor: pointer;">Apple Tv 4k Satın Alın</li>
+                        <li style="cursor: pointer;">Homepod Satın Alın</li>
+                        <li style="cursor: pointer;">Homepod mini Satın Alın</li>
+                        <li style="cursor: pointer;">Siri Remote Satın Alın</li>
+                        <li style="cursor: pointer;">TV ve Ev Aksesuarları</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -80px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -10px;">Daha
+                    Fazla Tv ve Ev Ürünü
+                </div>
+                <div>
+                    <ul style="font-size: 15px;font-weight: 400;list-style-type: none;">
+                        <li style="cursor: pointer;">Apple Tv Desteği</li>
+                        <li style="cursor: pointer;">HomePod Desteği</li>
+                        <li style="cursor: pointer;">Apple TV uygulaması</li>
+                        <li style="cursor: pointer;">Ev Uygulaması</li>
+                        <li style="cursor: pointer;">Apple Music</li>
+                        <li style="cursor: pointer;">Siri</li>
+                        <li style="cursor: pointer;">AirPlay</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="Eğlence-div">
+            <div style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -20px;">Eğlence
+                    Servislerini Keşfedin</div>
+                <div>
+                    <ul style="font-size: 25px;list-style-type: none;">
+                        <li style="cursor: pointer;">Eğlence Servislerini Keşfedin</li>
+                        <li style="cursor: pointer;">Apple Music</li>
+                        <li style="cursor: pointer;">Apple Arcade</li>
+                        <li style="cursor: pointer;">Apple Podcasts</li>
+                        <li style="cursor: pointer;">Apple Apple Books</li>
+                        <li style="cursor: pointer;">App Store</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -190px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -10px;">Destek
+                </div>
+                <div>
+                    <ul style="font-size: 15px;font-weight: 400;list-style-type: none;">
+                        <li style="cursor: pointer;">Apple Music Desteği</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="Aksesuarlar-div">
+            <div style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -20px;">Aksesuar
+                    Satın Alın</div>
+                <div>
+                    <ul style="font-size: 25px;list-style-type: none;">
+                        <li style="cursor: pointer;">Tüm Aksesuarlara Göz Atın</li>
+                        <li style="cursor: pointer;">Mac</li>
+                        <li style="cursor: pointer;">iPad</li>
+                        <li style="cursor: pointer;">iPhone</li>
+                        <li style="cursor: pointer;">Apple Watch</li>
+                        <li style="cursor: pointer;">AirPods</li>
+                        <li style="cursor: pointer;">TV ve Ev
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -180px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -10px;">
+                    Aksesuarları Keşfedin</div>
+                <div>
+                    <ul style="font-size: 15px;font-weight: 400;list-style-type: none;">
+                        <li style="cursor: pointer;">Apple Tarafından Tasarlandı </li>
+                        <li style="cursor: pointer;">Beats</li>
+                        <li style="cursor: pointer;">Airtag</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="Destek-div">
+            <div style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -20px;">Destek
+                    Konuları
+                    keşfedin</div>
+                <div>
+                    <ul style="font-size: 25px;list-style-type: none;">
+                        <li style="cursor: pointer;">İphone</li>
+                        <li style="cursor: pointer;">Mac</li>
+                        <li style="cursor: pointer;">İpad</li>
+                        <li style="cursor: pointer;">Watch</li>
+                        <li style="cursor: pointer;">Airpods</li>
+                        <li style="cursor: pointer;">Müzik</li>
+                        <li style="cursor: pointer;">Tv</li>
+                        <li style="font-size: 13px;color: black;margin-top: 20px;">Destek Konularını Keşfedin</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -210px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -10px;">Yardım
+                    Alın</div>
+                <div>
+                    <ul style="font-size: 15px;font-weight: 400;list-style-type: none;">
+                        <li style="cursor: pointer;">Topluluk</li>
+                        <li style="cursor: pointer;">Garanti Durumunu Kontrol Edin</li>
+                        <li style="cursor: pointer;">Genius Bar</li>
+                        <li style="cursor: pointer;">Onarım</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start  ;justify-content: center;margin-top: -230px;">
+                <div style="margin-left: 40px;font-size: 13px;color: rgb(146, 146, 146);margin-bottom: -10px;">Özel
+                    Yararlı Konular</div>
+                <div>
+                    <ul style="font-size: 15px;font-weight: 400;list-style-type: none;">
+                        <li style="cursor: pointer;">Apple Hesabı Ve Parolası</li>
+                        <li style="cursor: pointer;">Faturalandırma Ve Abonelikler</li>
+                        <li style="cursor: pointer;">Erişebilirlik</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div style="position: absolute;top: 50px;left: 0px;width: 100vw;display: flex;justify-content: center;align-items: center;background-color: #F3F4F4;height: 50px;"
+        id="airtag">
+        Sınırlı bir süre için eğitime özel fiyatlarla Mac satın alın, AirTag sahibi olun.* <span style="color: blue;">
+            Alışveriş yapın </span>
+    </div>
+    <section
+        style="margin-top: 140px;display: flex;align-items: center;justify-content: center;flex-direction: column;flex-wrap: wrap;padding-bottom: 100px;margin-left: -40px;"  id="section-1" >
+        <h1
+            style="margin-right: auto;margin-left: 10vw;font-weight: 500;font-size: 80px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+            Mac</h1>
+        <div style="display: flex;flex-direction: row;margin-top: 0px;margin-right: 70px;">
+
+            <div style="cursor: pointer;" id="geri-1">
+
+                <svg width="7" height="13" viewBox="0 0 7 13" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="currentcolor"
+                        d="m2.252 6.5001s0-.0001 0-.0001l4.4336-4.877c.3438-.3789.3164-.9648-.0625-1.3086s-.9648-.3174-1.3086.0625l-5 5.5c-.3212.3535-.3212.8927 0 1.2462l5 5.5c.3438.3799.9297.4062 1.3086.0625s.4062-.9297.0625-1.3086z">
+                    </path>
+                </svg>
+            </div>
+
+            <div style="display: flex;gap:  20px;margin-left: 10px" class="kartsistem1">
+                <div
+                    style="display:flex;justify-content: center;width: 200px;flex-direction: column;align-items: center;cursor: pointer;">
+                    <img width="70px" height="70px" src="imgler\nav_mbn_fcdfdf35f_2x.png" alt="">
+                    <p  style="width: 111px;font-size: 16px;display: flex;justify-content: center;">MacBook Neo</p>
+                </div>
+                <div
+                    style="display:flex;justify-content: center;width: 200px;flex-direction: column;align-items: center;cursor: pointer;">
+                    <img width="70px" height="70px" src="imgler\nav_mba_8e00b3bdd_2x.png" alt="">
+                    <p style="width: 111px;font-size: 16px;display: flex;justify-content: center;">MacBook Air</p>
+                </div>
+                <div
+                    style="display:flex;justify-content: center;width: 200px;flex-direction: column;align-items: center;cursor: pointer;">
+                    <img width="70px" height="70px" src="imgler/promac.png" alt="">
+                    <p style="width: 111px;font-size: 16px;display: flex;justify-content: center;">MacBook Pro</p>
+                </div>
+                <div
+                    style="display:flex;justify-content: center;width: 200px;flex-direction: column;align-items: center;cursor: pointer;">
+                    <div style="display: flex;justify-content: center;;flex-direction: column;align-items: center;">
+                        <img width="70px" height="70px" src="imgler/imac.png" alt="">
+                        <p  style="width: 111px;font-size: 16px;display: flex;justify-content: center;">İmac</p>
+                    </div>
+                </div>
+                <div
+                    style="display:flex;justify-content: center;width: 200px;flex-direction: column;align-items: center;cursor: pointer;">
+                    <img width="70px" height="70px" src="imgler/mac mini.png" alt="">
+                    <p style="width: 111px;font-size: 16px;display: flex;justify-content: center;">Mac Mini</p>
+                    <p style="font-size: 12px;color: orangered;margin-top: -15px;margin-bottom: 0px;">Yeni</p>
+                </div>
+                <div
+                    style="display:flex;justify-content: center;width: 200px;flex-direction: column;align-items: center;cursor: pointer;">
+                    <img width="70px" height="70px" src="imgler/mac studio.png" alt="">
+                    <p  style="width: 111px;font-size: 16px;display: flex;justify-content: center;">Mac Studio</p>
+                    <p style="font-size: 12px;color: orangered;margin-top: -15px;margin-bottom: 0px;">Yeni</p>
+                </div>
+                <div
+                    style="display:flex;justify-content: center;width: 200px;flex-direction: column;align-items: center;cursor: pointer;">
+                    <img width="70px" height="70px" src="imgler/Karşılaştırın,.png" alt="">
+                    <p  style="width: 111px;font-size: 16px;display: flex;justify-content: center;">Karşılaştırın</p>
+                </div>
+                <div
+                    style="display:flex;justify-content: center;width: 200px;flex-direction: column;align-items: center;cursor: pointer;">
+                    <img width="70px" height="70px" src="imgler/ekranlar.png" alt="">
+                    <p  style="width: 111px;font-size: 16px;display: flex;justify-content: center;">Ekranlar</p>
+                </div>
+                <div
+                    style="display:flex;justify-content: center;width: 200px;flex-direction: column;align-items: center;cursor: pointer;">
+                    <img width="70px" height="70px" src="imgler/aksesuarlar.png" alt="">
+                    <p  style="width: 111px;font-size: 16px;display: flex;justify-content: center;">Aksesuarlar</p>
+                </div>
+                <div
+                    style="display:flex;justify-content: center;width: 200px;flex-direction: column;align-items: center;cursor: pointer;">
+                    <img width="90px" height="70px" src="imgler/mac satın alın,.png" alt="">
+                    <p  style="width: 111px;font-size: 16px;display: flex;justify-content: center;">Mac Satın Alın </p>
+                </div>
+                <div
+                    style="display:flex;justify-content: center;width: 140px;flex-direction: column;align-items: center;">
+                    <img width="70px   " height="70px" src="imgler/Golden gate.png" alt="">
+                    <p style="width: 111px;font-size: 16px;display: flex;justify-content: center;">Golden Gate </p>
+                </div>
+            </div>
+
+            <div style="cursor: pointer;" id="ileri-1">
+                <svg width="7" height="13" viewBox="0 0 7 13" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="currentcolor"
+                        d="m4.748 6.5001s0-.0001 0-.0001l-4.4336-4.877c-.3438-.3789-.3164-.9649.0625-1.3086s.9648-.3174 1.3086.0625l5 5.5c.3213.3535.3213.8927 0 1.2462l-5 5.5c-.3438.3799-.9297.4062-1.3086.0625s-.4062-.9297-.0625-1.3086l4.4336-4.877z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+
+
+    </section>
+    <div id="body-main">
+
+        <section style="background-color: #f5f5f5;padding: 100px;padding-right: 0px;margin-left: -40px;" >
+            <h2 style="font-size: 45px;font-weight: 600;margin-left: 37px;" >Ürün Serisini Keşfedin</h2>
+ <div class="navigation" style="margin-bottom: 100px;" >
+    <div class="active-box"></div>
+
+    <a id="Tümü" style="cursor: pointer;">Tüm ürünler</a>
+    <a id="Laptop" style="cursor: pointer;">Laptoplar</a>
+    <a id="Masaüstü" style="cursor: pointer;">Masaüstü bilgisayarlar</a>
+    <a id="Ekranlar" style="cursor: pointer;">Ekranlar</a>
+</div>
+
+<ul style="display: flex;flex-direction: row;list-style-type: none;overflow-x: hidden;gap: 100px;width: 1500px;align-items: start;margin-left: 0px;font-weight: 4000;" id="list-1" >
+<div id="Neo" style="display: flex;flex-direction: column;align-items: center;justify-content: center;width: 400px;" >
+    <img width="400px" height="300px" style="margin-right: 10px;" src="imgler\mbn_0cd16ed14_2x.jpg" alt="">
+    <div>
+        <div>
+<div style="display: flex;gap: 5px;justify-content: center;align-items: center;padding-top: 10px;margin-right: 30px;" >
+    <div style="cursor: pointer; width: 10px; height: 10px ;border-radius: 100%;border: 0.1px solid rgb(187, 187, 187);background-color: gainsboro;" >
+
+    </div>
+      <div style="cursor: pointer;width: 10px; height: 10px ;border-radius: 100%;border: 0.1px solid #fff6a8;background-color: #fff6a8;" >
+
+    </div>
+      <div style="cursor: pointer;width: 10px; height: 10px ;border-radius: 100%;border: 0.1px solid #bd00c4;background-color: #bd00c4;" >
+
+    </div>
+      <div style="cursor: pointer;width: 10px; height: 10px ;border-radius: 100%;border: 0.1px solid lightslategray;background-color: lightslategray;" >
+
+    </div>
+</div>
+        
+        <h1 style="margin-left:80px;width: 300px;display: flex;" >MacBook Neo</h3>
+
+        <p style="font-size: 17px;width: 200px;;display: flex;justify-content: center;align-items: center;margin-left: 80px;flex-direction: column;margin-top: 45px;  " ><span style="margin-left: 2px;" >Tüm Sihriyle Mac. </span> Harikulade Bir fiyat</p>
+
+        <p style="font-size: 15px;font-weight: 400;margin-left: 110px;" >
+            <small>Başlangıç Fiyatı 45.999 TL</small>
+        </p>
+        <div style="display: flex;gap: 50px;align-items: center;margin-left: 24px;" >
+            <div style="color: white;background-color: #0066ff;width: 140px;display: flex;align-items: center;justify-content: center;height: 30px;border-radius: 50px;cursor: pointer;" >
+                Daha Fazla Bilgi
+            </div>
+            <p  style="font-size: 17px;color: #0066ff;font-weight: 400;cursor: pointer;"  href="#">Satın Alın ></p>
+        </div>
+    </div>
+</div>
+</div>
+<div id="Macair" style="display: flex;flex-direction: column;align-items: center;justify-content: center;width: 400px;" >
+    <img width="400px" height="300px" style="margin-right: 20px;" src="imgler\mba_13_15_286f55670_2x.jpg" alt="">
+    <div>
+        <div>
+<div style="display: flex;gap: 5px;justify-content: center;align-items: center;padding-top: 10px;margin-right: 30px;" >
+    <div style="cursor: pointer; width: 10px; height: 10px ;border-radius: 100%;border: 0.1px solid rgb(187, 187, 187);background-color: gainsboro;" >
+
+    </div>
+      <div style="cursor: pointer;width: 10px; height: 10px ;border-radius: 100%;border: 0.1px solid #fff6a8;background-color: #fff6a8;" >
+
+    </div>
+      <div style="cursor: pointer;width: 10px; height: 10px ;border-radius: 100%;border: 0.1px solid #a4cff3;background-color: #a4cff3;" >
+
+    </div>
+      <div style="cursor: pointer;width: 10px; height: 10px ;border-radius: 100%;border: 0.1px solid lightslategray;background-color: lightslategray;" >
+
+    </div>
+</div>
+        
+        <h1 style="margin-left: 0px;width: 300px;display: flex;margin-bottom: -20px;justify-content: center;text-align: center;" >13 inç ve 15 inç
+            MacBook Air
+        </h3>
+
+        <p style="font-size: 17px;width: 200px;;display: flex;justify-content: center;align-items: center;margin-left: 50px;flex-direction: column;  " ><span style="margin-left: 2px;" >İnce.Hızlı. </span> Güçlü Ve Taşınabilir.</p>
+
+        <p style="font-size: 15px;font-weight: 400;margin-left: 81px;" >
+            <small>Başlangıç Fiyatı 84.999 TL</small>
+        </p>
+        <div style="display: flex;gap: 50px;align-items: center;margin-left: 24px;" >
+            <div style="color: white;background-color: #0066ff;width: 140px;display: flex;align-items: center;justify-content: center;height: 30px;border-radius: 50px;cursor: pointer;" >
+                Daha Fazla Bilgi
+            </div>
+            <p  style="font-size: 17px;color: #0066ff;font-weight: 400;cursor: pointer;"  href="#">Satın Alın ></p>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="MacPro" style="display: flex;flex-direction: column;align-items: center;justify-content: center;width: 400px;" >
+    <img width="400px" height="300px" style="margin-right:10px;" src="imgler\mbp_14_16_028335cc2_2x.jpg" alt="">
+    <div>
+        <div>
+<div style="display: flex;gap: 5px;justify-content: center;align-items: center;padding-top: 10px;margin-right: 10px;" >
+    <div style="cursor: pointer; width: 10px; height: 10px ;border-radius: 100%;border: 0.1px solid rgb(187, 187, 187);background-color: gainsboro;" >
+
+    </div>
+      <div style="cursor: pointer;width: 10px; height: 10px ;border-radius: 100%;border: 0.1px solid #000000;background-color: #000000;" >
+
+
+
+    </div>
+</div>
+        
+        <h1 style="margin-left: 0px;width: 300px;display: flex;margin-bottom: -20px;justify-content: center;text-align: center;" >14 inç ve 16 inç
+            MacBook Pro
+        </h3>
+
+        <p style="font-size: 17px;width: 250px;;display: flex;justify-content: center;align-items: center;margin-left:20px;flex-direction: column;  " ><span style="margin-left: 2px;" >Zorlu görevler için en gelişmiş. </span> Mac laptoplar</p>
+
+        <p style="font-size: 15px;font-weight: 400;margin-left: 81px;" >
+            <small>Başlangıç Fiyatı 84.999 TL</small>
+        </p>
+        <div style="display: flex;gap: 50px;align-items: center;margin-left: 0px;" >
+            <div style="color: white;background-color: #0066ff;width: 140px;display: flex;align-items: center;justify-content: center;height: 30px;border-radius: 50px;cursor: pointer;" >
+                Daha Fazla Bilgi
+            </div>
+            <p  style="font-size: 17px;color: #0066ff;font-weight: 400;cursor: pointer;"  href="#">Satın Alın ></p>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="imac" style="display: flex;flex-direction: column;align-items: center;justify-content: center;width: 400px;" >
+    <img width="400px" height="300px" style="margin-right:10px;" src="imgler/imac_24_664024e20_2x.jpg" alt="">
+    <div>
+        <div>
+<div style="display: flex;gap: 5px;justify-content: center;align-items: center;padding-top: 10px;margin-right: 10px;" >
+    <div style="cursor: pointer; width: 10px; height: 10px ;border-radius: 100%;border: 0.1px solid #E3E4E5;background-color: #E3E4E5;" >
+
+    </div>
+      <div style="cursor: pointer;width: 10px; height: 10px ;border-radius: 100%;border: 0.1px solid #A3C9E2 ;background-color: #A3C9E2 ;" >
+
+    </div>
+      <div style="cursor: pointer;width: 10px; height: 10px ;border-radius: 100%;border: 0.1px solid #B3E1C5 ;background-color: #B3E1C5 ;" >
+
+    </div>
+      <div style="cursor: pointer;width: 10px; height: 10px ;border-radius: 100%;border: 0.1px solid #EBB7B3  ;background-color: #EBB7B3  ;" >
+
+         </div>
+      <div style="cursor: pointer;width: 10px; height: 10px ;border-radius: 100%;border: 0.1px solid #F4BE9B  ;background-color: #F4BE9B  ;" >
+
+    </div>
+      <div style="cursor: pointer;width: 10px; height: 10px ;border-radius: 100%;border: 0.1px solid #F5E397 ;background-color: #F5E397;" >
+
+         </div>
+      <div style="cursor: pointer;width: 10px; height: 10px ;border-radius: 100%;border: 0.1px solid #C3C1E6  ;background-color: #C3C1E6  ;" >
+
+    </div>
+</div>
+        
+        <h1 style="margin-left: 0px;width: 300px;display: flex;margin-bottom: 40px;justify-content: center;text-align: center;" >İmac
+        </h3>
+
+        <p style="font-size: 17px;width: 250px;;display: flex;justify-content: center;align-items: center;margin-left:20px;flex-direction: column;  " ><span style="margin-left: 2px;" >Yaratıcılık ve üretkenlik için </span> Hepsi-bir-arada bir masaüstü</p>
+
+        <p style="font-size: 15px;font-weight: 400;margin-left: 81px;" >
+            <small>Başlangıç Fiyatı 99.999 TL</small>
+        </p>
+        <div style="display: flex;gap: 50px;align-items: center;margin-left: 0px;" >
+            <div style="color: white;background-color: #0066ff;width: 140px;display: flex;align-items: center;justify-content: center;height: 30px;border-radius: 50px;cursor: pointer;" >
+                Daha Fazla Bilgi
+            </div>
+            <p  style="font-size: 17px;color: #0066ff;font-weight: 400;cursor: pointer;"  href="#">Satın Alın ></p>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="MacMini" style="display: flex;flex-direction: column;align-items: center;justify-content: center;width: 400px;" >
+    <img width="400px" height="300px" style="margin-right: -40px;" src="imgler/mac_mini_3a6756873_2x.jpg" alt="">
+    <div>
+        <div>
+
+            <p style="margin-bottom: -20px;" ><small style="color: orangered;margin-left: 250px;" >Yeni</small> </p>
+        
+        <h1 style="margin-left:200px;width: 300px;display: flex;" >MacMini</h3>
+
+        <p style="font-size: 17px;width: 400px;;display: flex;justify-content: center;align-items: center;margin-left: 70px;flex-direction: column; margin-top: 45px; " ><span style="margin-left: 2px;" >En mini ve en uygun fiyatlı Mac</span> masaüstü bilgisayar.</p>
+
+        <p style="font-size: 15px;font-weight: 400;margin-left: 200px;" >
+            <small>Başlangıç Fiyatı 59.999 TL</small>
+        </p>
+        <div style="display: flex;gap: 50px;align-items: center;margin-left: 120px;" >
+            <div style="color: white;background-color: #0066ff;width: 140px;display: flex;align-items: center;justify-content: center;height: 30px;border-radius: 50px;cursor: pointer;" >
+                Daha Fazla Bilgi
+            </div>
+            <p  style="font-size: 17px;color: #0066ff;font-weight: 400;cursor: pointer;"  href="#">Satın Alın ></p>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="MacStudio" style="display: flex;flex-direction: column;align-items: center;justify-content: center;width: 400px;" >
+    <img width="400px" height="300px" style="margin-right: -40px;" src="imgler/mac_studio_e072659cc_2x.jpg" alt="">
+    <div>
+        <div>
+
+            <p style="margin-bottom: -20px;" ><small style="color: orangered;margin-left: 250px;" >Yeni</small> </p>
+        
+        <h1 style="margin-left:180px;width: 300px;display: flex;" >MacStudio</h3>
+
+        <p style="font-size: 17px;width: 400px;;display: flex;justify-content: center;align-items: center;margin-left: 70px;flex-direction: column; margin-top: 45px; " ><span style="margin-left: 2px;" >Profesyoneller için üstün performans</span>ve bağlantı özellikleri.</p>
+
+        <p style="font-size: 15px;font-weight: 400;margin-left: 200px;" >
+            <small>Başlangıç fiyatı: 167.999 TL</small>
+        </p>
+        <div style="display: flex;gap: 50px;align-items: center;margin-left: 120px;" >
+            <div style="color: white;background-color: #0066ff;width: 140px;display: flex;align-items: center;justify-content: center;height: 30px;border-radius: 50px;cursor: pointer;" >
+                Daha Fazla Bilgi
+            </div>
+            <p  style="font-size: 17px;color: #0066ff;font-weight: 400;cursor: pointer;"  href="#">Satın Alın ></p>
+        </div>
+    </div>
+</div>
+</div>
+<div id="StudioDisplay" style="display: flex;flex-direction: column;align-items: center;justify-content: center;width: 400px;" >
+    <img width="400px" height="300px" style="margin-right: -40px;" src="imgler/studio_display_7963c35c4_2x.jpg" alt="">
+    <div>
+        <div>
+
+        
+        <h1 style="margin-left: 110px;width: 300px;display: flex;" >Studio Display</h3>
+
+        <p style="font-size: 17px;width: 200px;;display: flex;justify-content: center;align-items: center;margin-left: 90px;flex-direction: column; margin-top: 65px; " ><span style="margin-left: 2px;" >Mac için muhteşem </span>bir 5K Retina ekran.</p>
+
+        <p style="font-size: 15px;font-weight: 400;margin-left: 110px;" >
+            <small>Başlangıç fiyatı: 99.999 TL</small>
+        </p>
+        <div style="display: flex;gap: 50px;align-items: center;margin-left: 30px;" >
+            <div style="color: white;background-color: #0066ff;width: 140px;display: flex;align-items: center;justify-content: center;height: 30px;border-radius: 50px;cursor: pointer;" >
+                Daha Fazla Bilgi
+            </div>
+            <p  style="font-size: 17px;color: #0066ff;font-weight: 400;cursor: pointer;"  href="#">Satın Alın ></p>
+        </div>
+    </div>
+</div>
+</div>
+<div id="StudioDisplayXDR" style="display: flex;flex-direction: column;align-items: center;justify-content: center;width: 400px;margin-right: 300px;" >
+    <img width="400px" height="300px" style="margin-right: -40px;" src="imgler/studio_display_xdr_a684a5970_2x (2).jpg" alt="">
+    <div>
+        <div>
+
+        
+        <h1 style="margin-left: 30px;width: 300px;display: flex;" >Studio Display XDR</h3>
+
+        <p style="font-size: 17px;width: 300px;;display: flex;justify-content: center;align-items: center;margin-left: 26px;flex-direction: column;margin-top: 63px;  " ><span style="margin-left: 2px;" >Yaratıcı ve profesyonel iş akışları için </span>mükemmel bir 5K Retina XDR ekran.</p>
+
+        <p style="font-size: 15px;font-weight: 400;margin-left: 100px;" >
+            <small>Başlangıç fiyatı: 199.999 TL</small>
+        </p>
+        <div style="display: flex;gap: 50px;align-items: center;margin-left: 24px;" >
+            <div style="color: white;background-color: #0066ff;width: 140px;display: flex;align-items: center;justify-content: center;height: 30px;border-radius: 50px;cursor: pointer;" >
+                Daha Fazla Bilgi
+            </div>
+            <p  style="font-size: 17px;color: #0066ff;font-weight: 400;cursor: pointer;"  href="#">Satın Alın ></p>
+        </div>
+    </div>
+</div>
+</div>
+
+</ul>
+<div style="display: flex;gap: 10px;align-items: center;justify-content: end;padding-right: 40px;" >
+    <div style="cursor: pointer;font-size: 30px;width: 20px;height: 20px;display: flex;align-items: center;justify-content: center;padding-bottom: 10px;" id="geri-2"  >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" class="IconControl_paddleNavIcons__ZzEXW"><path d="M20 25c-.384 0-.768-.146-1.06-.44l-5.5-5.5a1.5 1.5 0 0 1 0-2.12l5.5-5.5a1.5 1.5 0 1 1 2.12 2.12L16.622 18l4.44 4.44A1.5 1.5 0 0 1 20 25z"></path></svg>
+    </div>
+    <div   style="cursor: pointer;font-size: 30px;width: 20px;height: 20px;display: flex;align-items: center;justify-content: center;padding-bottom: 10px;"  id="ileri-2" >
+           <svg id="ileri-ok" xmlns="http://www.w3.orvg/2000/svg" viewBox="0 0 36 36" class="IconControl_paddleNavIcons__ZzEXW"><path d="M22.56 16.938l-5.508-5.5a1.493 1.493 0 0 0-2.116.003 1.502 1.502 0 0 0 .004 2.121L19.384 18l-4.444 4.438A1.502 1.502 0 0 0 15.996 25c.382 0 .764-.145 1.056-.438l5.508-5.5a1.502 1.502 0 0 0 0-2.125z"></path></svg>
+    </div>
+</div>
+</section>
+
+<section style="padding-left: 100px;height: 700px;background-color: #f5f5f5;margin-top: -40px;" >
+<h2 style="font-size: 45px;display: flex;flex-direction: column;"  ><span>Mac'inizi Neden </span>
+     Apple'den Satın Almalısınız</h2>
+
+     <ul style="list-style-type: none;display: flex;flex-direction: row;align-items: center; gap: 30px ;overflow: hidden;margin-left: -50px;" id="list3" >
+        <li><div class="kart-tasarım" >
+          <div>
+            <p style="font-weight: 700;font-size: 18px;" >Satın alma Yolları  </p>
+            <h1  style="margin-top: -10px;font-weight: 700;padding-right: 30px;font-size: x-large;" >Ödeme Kolaylıkları.</h1>
+            <p  style="margin-top: -10px;display: flex;flex-direction: column;font-size: 17px" >aylık taksit seçenekleriyle <span>kolayca ödeyin.</span></p>
+            <img style="margin-top: 120px;" width="100%" height="200px"  src="imgler/kart.jpg" alt="">
+            </div>
+            <div>
+            <button class="button-hover-onemli" style="width: 30px;border-radius: 50%;display: flex;align-items: center;height: 30px;margin-left: auto;margin-right: 20px;border:none;cursor:pointer;transition: 0.3s;" >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="IconControl_centeredIcon___gj73"><path d="M16 8.5h-4.5V4a1.5 1.5 0 0 0-3 0v4.5H4a1.5 1.5 0 0 0 0 3h4.5V16a1.5 1.5 0 0 0 3 0v-4.5H16a1.5 1.5 0 0 0 0-3z"></path></svg>
+            </button>
+            </div>
+        </div></li>
+          <li><div class="kart-tasarım" >
+          <div>
+            <p style="font-weight: 700;font-size: 18px;" >Eğitim </p>
+            <h1  style="margin-top: -10px;font-weight: 700;padding-right: 30px;font-size: x-large" >Eğitime özel fiyatlarla Mac satın alın, tasarruf edin.</h1>
+            <p  style="margin-top: -10px;display: flex;flex-direction: column;font-size: 17px" >Üniversite öğrencileri ve eğitimciler Apple Store üzerinden yaptıkları alışverişlerde özel fiyatlardan yararlanabilir.</p>
+            <img style="margin-top: 10px;" width="100%" height="200px"  src="imgler/neo 3.kart yeri için.img" alt="">
+            </div>
+            <div>
+            <button class="button-hover-onemli" style="width: 30px;border-radius: 50%;display: flex;align-items: center;height: 30px;margin-left: auto;margin-right: 20px;border:none;cursor:pointer;transition: 0.3s;" >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="IconControl_centeredIcon___gj73"><path d="M16 8.5h-4.5V4a1.5 1.5 0 0 0-3 0v4.5H4a1.5 1.5 0 0 0 0 3h4.5V16a1.5 1.5 0 0 0 3 0v-4.5H16a1.5 1.5 0 0 0 0-3z"></path></svg>
+            </button>
+            </div>
+        </div></li>
+          <li><div class="kart-tasarım" >
+          <div>
+            <p style="font-weight: 700;font-size: 18px;" >Mac'inizi Kişiselleştirme  </p>
+            <h1  style="margin-top: -10px;font-weight: 700;padding-right: 30px;font-size: x-large;" >Mac'inizi kişiselleştirin.</h1>
+            <p  style="margin-top: -10px;display: flex;flex-direction: column;font-size: 17px" > Çip,Bellek ve Depolama Kapasitesini Seçin.</p>
+            <img  style="margin-top: 110px;margin-bottom: 10px;" width="100%" height="200px"  src="imgler/customize_8ef68bf9a_2x.jpg" alt="">
+            </div>
+            <div>
+            <button class="button-hover-onemli" style="width: 30px;border-radius: 50%;display: flex;align-items: center;height: 30px;margin-left: auto;margin-right: 20px;border:none;cursor:pointer;transition: 0.3s;" >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="IconControl_centeredIcon___gj73"><path d="M16 8.5h-4.5V4a1.5 1.5 0 0 0-3 0v4.5H4a1.5 1.5 0 0 0 0 3h4.5V16a1.5 1.5 0 0 0 3 0v-4.5H16a1.5 1.5 0 0 0 0-3z"></path></svg>
+            </button>
+            </div>
+        </div></li>
+          <li><div class="kart-tasarım" >
+          <div>
+            <p style="font-weight: 700;font-size: 18px;" >Gönderim Ve Teslim Alma  </p>
+            <h1  style="margin-top: -10px;font-weight: 700;padding-right: 30px;font-size: x-large;" >Hızlı Ve Ücretsiz Gönderim.</h1>
+            <p  style="margin-top: -10px;display: flex;flex-direction: column;font-size: 17px" >Veya stoktaki ürünleri bir <span>Apple Store'den teslim alma seçeneği
+            </span></p>
+            <img  style="margin-top: 75px;margin-bottom: 20px;" width="100%" height="200px"  src="imgler/delivery_f43650245_2x.jpg" alt="">
+            </div>
+            <div>
+            <button class="button-hover-onemli" style="width: 30px;border-radius: 50%;display: flex;align-items: center;height: 30px;margin-left: auto;margin-right: 20px;border:none;cursor:pointer;transition: 0.3s;" >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="IconControl_centeredIcon___gj73"><path d="M16 8.5h-4.5V4a1.5 1.5 0 0 0-3 0v4.5H4a1.5 1.5 0 0 0 0 3h4.5V16a1.5 1.5 0 0 0 3 0v-4.5H16a1.5 1.5 0 0 0 0-3z"></path></svg>
+            </button>
+            </div>
+        </div></li>
+          <li><div class="kart-tasarım" >
+          <div>
+            <p style="font-weight: 700;font-size: 18px;" >Rehberli Alışveriş  </p>
+            <h1  style="margin-top: -10px;font-weight: 700;padding-right: 30px;font-size: x-large;" >Bir uzman ile bire bir alışveriş yapın.</h1>
+            <p  style="margin-top: -10px;display: flex;flex-direction: column;font-size: 17px" >Apple Store'da veya <span>online mağazamızda aradıklarınızı bulmanız için size eşlik ederek yardımcı olabilir ve tüm sorularınızı yanıtlayabiliriz.</span></p>
+            <img style="margin-top: 5px;margin-bottom: 20px;" width="100%" height="200px"  src="imgler/support_c5aa9f49c_2x.jpg" alt="">
+            </div>
+            <div>
+            <button class="button-hover-onemli" style="width: 30px;border-radius: 50%;display: flex;align-items: center;height: 30px;margin-left: auto;margin-right: 20px;border:none;cursor:pointer;transition: 0.3s;" >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="IconControl_centeredIcon___gj73"><path d="M16 8.5h-4.5V4a1.5 1.5 0 0 0-3 0v4.5H4a1.5 1.5 0 0 0 0 3h4.5V16a1.5 1.5 0 0 0 3 0v-4.5H16a1.5 1.5 0 0 0 0-3z"></path></svg>
+            </button>
+            </div>
+        </div></li>
+          <li><div class="kart-tasarım" >
+          <div>
+            <p style="font-weight: 700;font-size: 18px;" >Apple Store Uygulaması  </p>
+            <h1  style="margin-top: -10px;font-weight: 700;padding-right: 30px;font-size: x-large;" >Sizin İçin Hazırlanmış Bir Alışveriş Deneyimini Keşfedin.</h1>
+            <p  style="margin-top: -10px;display: flex;flex-direction: column;font-size: 17px" >Apple store uygulamasını <span>kullanarak alışveriş yapmanın size özel bir yolunu keşfedin.</span></p>
+            <img style="margin-bottom: 20px; margin-top: 20px;"  width="100%" height="200px"  src="imgler/apple_store_6678ce8c8_2x (1).jpg" alt="">
+            </div>
+            <div>
+            <button class="button-hover-onemli" style="width: 30px;border-radius: 50%;display: flex;align-items: center;height: 30px;margin-left: auto;margin-right: 20px;border:none;cursor:pointer;transition: 0.3s;" >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="IconControl_centeredIcon___gj73"><path d="M16 8.5h-4.5V4a1.5 1.5 0 0 0-3 0v4.5H4a1.5 1.5 0 0 0 0 3h4.5V16a1.5 1.5 0 0 0 3 0v-4.5H16a1.5 1.5 0 0 0 0-3z"></path></svg>
+            </button>
+            </div>
+        </div></li>
+     </ul>
+
+<div style="display: flex;gap: 10px;align-items: center;justify-content: end;padding-right: 40px;" >
+    <div style="cursor: pointer;font-size: 30px;width: 20px;height: 20px;display: flex;align-items: center;justify-content: center;padding-bottom: 10px;" id="geri-3"  >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" class="IconControl_paddleNavIcons__ZzEXW"><path d="M20 25c-.384 0-.768-.146-1.06-.44l-5.5-5.5a1.5 1.5 0 0 1 0-2.12l5.5-5.5a1.5 1.5 0 1 1 2.12 2.12L16.622 18l4.44 4.44A1.5 1.5 0 0 1 20 25z"></path></svg>
+    </div>
+    <div   style="cursor: pointer;font-size: 30px;width: 20px;height: 20px;display: flex;align-items: center;justify-content: center;padding-bottom: 10px;"  id="ileri-3" >
+           <svg id="ileri-ok" xmlns="http://www.w3.orvg/2000/svg" viewBox="0 0 36 36" class="IconControl_paddleNavIcons__ZzEXW"><path d="M22.56 16.938l-5.508-5.5a1.493 1.493 0 0 0-2.116.003 1.502 1.502 0 0 0 .004 2.121L19.384 18l-4.444 4.438A1.502 1.502 0 0 0 15.996 25c.382 0 .764-.145 1.056-.438l5.508-5.5a1.502 1.502 0 0 0 0-2.125z"></path></svg>
+    </div>
+</div>
+
+</section>
+    </div>
+
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
