@@ -1,2 +1,1 @@
-# apple-mac-klon
-YOK
+as
