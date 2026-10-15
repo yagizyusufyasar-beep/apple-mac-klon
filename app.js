@@ -444,14 +444,16 @@ para()
 
 ileri.addEventListener("click", () => {
     kartsistem1.scrollBy({
+
         left: 150,
+   behavior: "smooth"
     });
 });
 
 geri.addEventListener("click", () => {
     kartsistem1.scrollBy({
         left: -152,
-
+behavior: "smooth"
     });
 });
 
@@ -504,12 +506,14 @@ Ekranlar.addEventListener('click', function (params) {
 ileri3.addEventListener("click", () => {
     list3.scrollBy({
         left: 344,
+        behavior: "smooth"
     });
 });
 
 geri3.addEventListener("click", () => {
     list3.scrollBy({
         left: -344,
+        behavior: "smooth"
     });
 });
 
@@ -533,3 +537,34 @@ list3.addEventListener('scroll', function (params) {
 geri.style.visibility = "hidden";
     geri3.style.visibility = "hidden";
         geri2.style.visibility = "hidden";
+
+        ileri2.addEventListener("click", () => {
+    list1.scrollBy({
+        left: 344,
+        behavior: "smooth"
+    });
+});
+
+geri2.addEventListener("click", () => {
+    list1.scrollBy({
+        left: -344,
+        behavior: "smooth"
+    });
+});
+
+list1.addEventListener('scroll', function (params) {
+
+    if (list1.scrollLeft + list1.clientWidth >= list1.scrollWidth - 5) {
+
+        ileri2.style.visibility = "hidden";
+    } else {
+        ileri2.style.visibility = "visible";
+    }
+    if (list1.scrollLeft > 0) {
+        geri2.style.visibility = "visible";
+
+    }
+    else {
+        geri2.style.visibility = "hidden";
+    }
+})
