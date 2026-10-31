@@ -8,6 +8,8 @@
     z-index: 10000;
 }
 
+
+
 body {
     height: 100vh;
     width: 100vw;
@@ -162,7 +164,31 @@ body {
 }
 
 .bulanık {
-    filter: blur(15px);
+    animation: blurlanma;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes blurlanma {
+    0% {
+        filter: blur(1px);
+    }
+
+    20% {
+        filter: blur(4px);
+    }
+
+    50% {
+        filter: blur(8px);
+    }
+
+    80% {
+        filter: blur(12px);
+    }
+
+    100% {
+        filter: blur(15px);
+    }
 }
 
 #Watch-div {
@@ -322,7 +348,7 @@ body {
     animation-name: mavisS;
     animation-duration: 2s;
     animation-direction: normal;
-    animation-fill-mode: forwards ;
+    animation-fill-mode: forwards;
 }
 
 
@@ -348,7 +374,7 @@ body {
     }
 }
 
-.kartsistem1{
+.kartsistem1 {
     display: flex;
     width: 80vw;
     max-width: 1200px;
@@ -357,18 +383,18 @@ body {
     align-items: center;
 }
 
-#geri-1{
-   border-right: 1px solid gainsboro;
-   display: flex;
-   align-items: center;
-   padding-right: 15px;
+#geri-1 {
+    border-right: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
 }
 
-#ileri-1{
-   border-left: 1px solid gainsboro;
-   display: flex;
-   align-items: center;
-   padding-left: 15px;
+#ileri-1 {
+    border-left: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
 }
 
 .navigation {
@@ -396,7 +422,7 @@ body {
     text-decoration: none;
 
     padding: 5px 15px;
-   font-weight: 400;
+    font-weight: 400;
     font-size: 20px;
     font-family: system-ui, sans-serif;
 }
@@ -408,8 +434,8 @@ body {
     left: 10px;
 
     padding-top: 0px;
-    
-        padding-bottom: 3px;
+
+    padding-bottom: 3px;
     height: 30px;
     z-index: 0;
     background-color: black;
@@ -421,26 +447,14 @@ body {
     align-items: center;
 }
 
-.white{
+.white {
     color: white;
     display: block;
     position: relative;
     z-index: 999999;
 }
 
-#ileri-2{
-    background-color:   rgb(232, 232, 237);
-    width: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    border-radius: 50%;
-    color: rgba(0, 0, 0, 0.56);
-      font-weight: bolder;
-}
-
-#geri-2{
+#ileri-2 {
     background-color: rgb(232, 232, 237);
     width: 20px;
     display: flex;
@@ -448,15 +462,27 @@ body {
     justify-content: center;
     padding: 10px;
     border-radius: 50%;
-      color: rgba(0, 0, 0, 0.56);
-      font-weight: bolder;
+    color: rgba(0, 0, 0, 0.56);
+    font-weight: bolder;
 }
 
-.block{
+#geri-2 {
+    background-color: rgb(232, 232, 237);
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.56);
+    font-weight: bolder;
+}
+
+.block {
     display: block;
 }
 
-.none{
+.none {
     display: none;
 }
 
@@ -471,10 +497,15 @@ span {
     font-weight: 600;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 
-color: rgba(0, 0, 0, 0.8);
-font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
 }
 
 .IconControl_paddleNavIcons__ZzEXW {
@@ -493,52 +524,99 @@ font-weight: 600;
     height: 40px;
     display: block;
     flex-shrink: 0;
-          fill: #161617;
+    fill: #161617;
     background-color: #eeeeee;
-        border-radius: 50%;
-        transition: 0.3s;
+    border-radius: 50%;
+    transition: 0.3s;
 }
 
-.kart-tasarım{
+.kart-tasarım {
     display: flex;
     flex-direction: column;
-   background-color: white;
-   width: 344px;
-   border-radius: 40px;
-   height: 540px;
-   border-bottom-right-radius: 40px;
-   border-bottom-left-radius: 40px;
-   align-items: left;
-   padding-left: 30px;
-   box-sizing: border-box;
-   
+    background-color: white;
+    width: 344px;
+    border-radius: 20px;
+    height: 540px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    align-items: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 20;
+    transition: 0.4s ease;
 }
 
-.kart-tasarım img{
+
+.kart-tasarım-son-card-slipper {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 372px;
+    border-radius: 20px;
+    height: 680px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: url(imgler/fc_performance_0f92b741a_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+    gap: 500px;
+    position: relative;
+    z-index: 20;
+    transition: 0.4s ease;
+}
+
+.kart-tasarım-son-card-slipper:hover {
+    cursor: pointer;
+    transition: 0.4s ease;
+    transform: scale(1.04);
+}
+
+.kart-tasarım:hover {
+    cursor: pointer;
+    transition: 0.4s ease;
+    transform: scale(1.04);
+}
+
+
+
+.kart-tasarım img {
     width: 100%;
     margin-left: 0px;
     margin-top: 70px;
 
 }
 
-.button-hover-onemli:hover{
+.button-hover-onemli:hover {
     background-color: #f6f6f7;
     transition: 0.3s;
 }
 
-#ileri-3{
-    background-color:   rgb(232, 232, 237);
-    width: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    border-radius: 50%;
-    color: rgba(0, 0, 0, 0.56);
-      font-weight: bolder;
+
+.button-hover-onemli-dark:hover {
+    background-color: #37373a;
+    transition: 0.3s;
 }
 
-#geri-3{
+.button-hover-onemli-dark {
+    background-color: #333336;
+    transition: 0.3s;
+}
+
+.button-hover-onemli-hafif-dark {
+    background-color: #e8e8ed;
+    transition: 0.3s;
+}
+
+.button-hover-onemli-hafif-dark:hover {
+    background-color: #ececf0;
+    transition: 0.3s;
+}
+
+#ileri-3 {
     background-color: rgb(232, 232, 237);
     width: 20px;
     display: flex;
@@ -546,6 +624,267 @@ font-weight: 600;
     justify-content: center;
     padding: 10px;
     border-radius: 50%;
-      color: rgba(0, 0, 0, 0.56);
-      font-weight: bolder;
+    color: rgba(0, 0, 0, 0.56);
+    font-weight: bolder;
+}
+
+#geri-3 {
+    background-color: rgb(232, 232, 237);
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.56);
+    font-weight: bolder;
+}
+
+
+.IconControl_centeredIcon___gj73 {
+    color: #ffffff;
+}
+
+
+.kart-tasarım-son-card-slipper-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 372px;
+    border-radius: 20px;
+    height: 680px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: url(imgler/fc_intelligence_70d029acc_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+    gap: 500px;
+    position: relative;
+    z-index: 20;
+    transition: 0.4s ease;
+}
+
+.kart-tasarım-son-card-slipper-2:hover {
+    cursor: pointer;
+    transition: 0.4s ease;
+    transform: scale(1.04);
+}
+
+
+
+.kart-tasarım-son-card-slipper-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 372px;
+    border-radius: 20px;
+    height: 680px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: url(imgler/fc_macos_ad04c2155.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+    gap: 500px;
+    position: relative;
+    z-index: 20;
+    transition: 0.4s ease;
+}
+
+.kart-tasarım-son-card-slipper-3:hover {
+    cursor: pointer;
+    transition: 0.4s ease;
+    transform: scale(1.04);
+}
+
+
+
+.kart-tasarım-son-card-slipper-4 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 372px;
+    border-radius: 20px;
+    height: 680px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: url(imgler/fc_iphone_cf8cc9dd5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+    gap: 500px;
+    position: relative;
+    z-index: 20;
+    transition: 0.4s ease;
+}
+
+.kart-tasarım-son-card-slipper-4:hover {
+    cursor: pointer;
+    transition: 0.4s ease;
+    transform: scale(1.04);
+}
+
+.kart-tasarım-son-card-slipper-5 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 372px;
+    border-radius: 20px;
+    height: 680px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: url(imgler/fc_compatibility_e6a4a05fd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+    gap: 500px;
+    position: relative;
+    z-index: 20;
+    transition: 0.4s ease;
+}
+
+.kart-tasarım-son-card-slipper-5:hover {
+    cursor: pointer;
+    transition: 0.4s ease;
+    transform: scale(1.04);
+}
+
+.kart-tasarım-son-card-slipper-6 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 372px;
+    border-radius: 20px;
+    height: 680px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: url(imgler/fc_security_13b238eb8_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+    gap: 500px;
+    position: relative;
+    z-index: 20;
+    transition: 0.4s ease;
+}
+
+.kart-tasarım-son-card-slipper-6:hover {
+    cursor: pointer;
+    transition: 0.4s ease;
+    transform: scale(1.04);
+}
+
+#list4 {
+    padding: 50px 45px;
+}
+
+
+.kart-tasarım-son-card-slipper-7 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: white;
+    width: 372px;
+    border-radius: 20px;
+    height: 680px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: url(imgler/fc_durability_3c28c1761_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+    gap: 500px;
+    position: relative;
+    z-index: 20;
+    transition: 0.4s ease;
+}
+
+.kart-tasarım-son-card-slipper-7:hover {
+    cursor: pointer;
+    transition: 0.4s ease;
+    transform: scale(1.04);
+}
+
+
+.kart-tasarım-son-card-slipper-8 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: white;
+    width: 372px;
+    border-radius: 20px;
+    height: 680px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: url(imgler/fc_values_0207c2c0d_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+    gap: 500px;
+    position: relative;
+    z-index: 20;
+    transition: 0.4s ease;
+}
+
+.kart-tasarım-son-card-slipper-8:hover {
+    cursor: pointer;
+    transition: 0.4s ease;
+    transform: scale(1.04);
+}
+
+.mac-ile-mumkun-div {
+    width: 85%;
+    background-color: white;
+    height: 450px;
+    margin: 0px 7% 0px 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.mac-ile-mumkun-div:hover{
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+.fa-chevron-right{
+    font-size: 12px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.mac-ile-mumkun-div-alt {
+    width: 45%;
+    background-color: white;
+    height: 540px;
+    margin: 0px 1% 0px 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    overflow: hidden;
 }
