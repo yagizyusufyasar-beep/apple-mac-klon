@@ -44,9 +44,6 @@ let StudioDisplayXDR = document.querySelector("#StudioDisplayXDR")
 let list3 = document.querySelector("#list3")
 let geri3 = document.querySelector("#geri-3")
 let ileri3 = document.querySelector("#ileri-3")
-let list4 = document.querySelector("#list4")
-let geri4 = document.querySelector("#geri-4")
-let ileri4 = document.querySelector("#ileri-4")
 let section1 = document.querySelector("#section-1")
 
 function hareketEt(element) {
@@ -540,7 +537,7 @@ list3.addEventListener('scroll', function (params) {
 geri.style.visibility = "hidden";
     geri3.style.visibility = "hidden";
         geri2.style.visibility = "hidden";
-          geri4.style.visibility = "hidden";
+
 
         ileri2.addEventListener("click", () => {
     list1.scrollBy({
@@ -573,33 +570,4 @@ list1.addEventListener('scroll', function (params) {
     }
 })
 
-    ileri4.addEventListener("click", () => {
-    list4.scrollBy({
-        left: 344,
-        behavior: "smooth"
-    });
-});
-
-geri4.addEventListener("click", () => {
-    list4.scrollBy({
-        left: -344,
-        behavior: "smooth"
-    });
-});
-
-list4.addEventListener('scroll', function (params) {
-
-    if (list4.scrollLeft + list4.clientWidth >= list4.scrollWidth - 5) {
-
-        ileri4.style.visibility = "hidden";
-    } else {
-        ileri4.style.visibility = "visible";
-    }
-    if (list4.scrollLeft > 0) {
-        geri4.style.visibility = "visible";
-
-    }
-    else {
-        geri4.style.visibility = "hidden";
-    }
-})
+   
