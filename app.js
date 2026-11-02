@@ -45,6 +45,13 @@ let list3 = document.querySelector("#list3")
 let geri3 = document.querySelector("#geri-3")
 let ileri3 = document.querySelector("#ileri-3")
 let section1 = document.querySelector("#section-1")
+let MacVeİphone = document.querySelector('#Mac-Ve-İphone')
+let MacVeİphoneYazı = document.querySelector('#Mac-Ve-İphone-Yazı')
+let MacVeİpad = document.querySelector('#Mac-Ve-İpad')
+let MacVeİpadYazı = document.querySelector('#Mac-Ve-İpad-Yazı')
+let MacVeWatch = document.querySelector('#Mac-Ve-Watch')
+let MacVeWatchYazı = document.querySelector('#Mac-Ve-Watch-Yazı')
+
 
 function hareketEt(element) {
     activeBox.style.width = element.offsetWidth + "px";
@@ -570,4 +577,28 @@ list1.addEventListener('scroll', function (params) {
     }
 })
 
-   
+   MacVeWatchYazı.style.display = "none";
+    MacVeİpadYazı.style.display = "none";
+     MacVeİphoneYazı.style.display = "inline";
+        MacVeWatch.style.cursor = "pointer";
+    MacVeİpad.style.cursor = "pointer";
+     MacVeİphone.style.cursor = "pointer";
+
+MacVeWatch.addEventListener('click', function (params) {
+  
+    MacVeWatchYazı.style.display = "inline";
+       MacVeİphoneYazı.style.display = "none";
+           MacVeİpadYazı.style.display = "none";
+})
+MacVeİpad.addEventListener('click', function (params) {
+  
+    MacVeWatchYazı.style.display = "none";
+       MacVeİphoneYazı.style.display = "none";
+           MacVeİpadYazı.style.display = "inline";
+})
+MacVeİphone.addEventListener('click', function (params) {
+  
+    MacVeWatchYazı.style.display = "none";
+       MacVeİphoneYazı.style.display = "inline";
+           MacVeİpadYazı.style.display = "none";
+})

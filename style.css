@@ -10,6 +10,8 @@
 
 
 
+
+
 body {
     height: 100vh;
     width: 100vw;
@@ -863,16 +865,17 @@ h6 {
     transition: 0.3s;
 }
 
-.mac-ile-mumkun-div:hover{
+.mac-ile-mumkun-div:hover {
     transition: 0.3s;
     transform: scale(1.05);
 }
 
-.fa-chevron-right{
+.fa-chevron-right {
     font-size: 12px;
     margin-bottom: 20px;
     font-weight: 100;
 }
+
 .mac-ile-mumkun-div-alt {
     width: 45%;
     background-color: white;
@@ -888,4 +891,10 @@ h6 {
     cursor: pointer;
     transition: 0.3s;
     overflow: hidden;
+}
+
+.onemlihoverlidegilbilmiyomsallıyom {
+
+    width: 20px;
+    height: 20px;
 }
